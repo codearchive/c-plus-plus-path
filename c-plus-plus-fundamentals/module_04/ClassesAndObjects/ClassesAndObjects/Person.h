@@ -9,5 +9,7 @@ private:
 	int arbitrary_number_;
 
 public:
+	Person(std::string first, std::string last, int arbitrary);
+	Person() = default;
 	std::string get_name();
 };
