@@ -2,6 +2,7 @@
 //
 
 #include "Person.h"
+#include "Tweeter.h"
 #include <iostream>
 
 using std::cout;
@@ -12,7 +13,8 @@ int main()
 {
 	Person p1("Thomas ", "Anderson", 123);
 	{
-		Person p2;
+		Tweeter t1("Someone", "Else", 456, "@whoever");
+		string name2 = t1.get_name();
 	}
 	
 	cout << "after innermost block" << endl;
