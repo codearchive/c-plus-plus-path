@@ -1,9 +1,10 @@
 // ClassesAndObjects.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <iostream>
 #include "Person.h"
 #include "Tweeter.h"
-#include <iostream>
+#include "Status.h"
 
 using std::cout;
 using std::endl;
@@ -22,7 +23,14 @@ int main()
 
 	//int i = p1.arbitrary_number_;
 
-	cout << name << endl;
+	Status s = Pending;
+	s = Approved;
+
+	FileError fe = FileError::notfound;
+	fe = FileError::ok;
+	NetworkError ne = NetworkError::disconmected;
+	ne = NetworkError::ok;
+
 
 	return 0;
 }
