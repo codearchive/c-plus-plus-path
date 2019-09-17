@@ -7,8 +7,11 @@
 int main()
 {
 	Person p1("Thomas ", "Anderson", 123);
-	Person p2;
-
+	{
+		Person p2;
+	}
+	
+	std::cout << "after innermost block" << std::endl;
 	std::string name = p1.get_name();
 
 	//int i = p1.arbitrary_number_;
