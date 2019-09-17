@@ -4,6 +4,10 @@
 #include "Person.h"
 #include <iostream>
 
+using std::cout;
+using std::endl;
+using std::string;
+
 int main()
 {
 	Person p1("Thomas ", "Anderson", 123);
@@ -11,12 +15,12 @@ int main()
 		Person p2;
 	}
 	
-	std::cout << "after innermost block" << std::endl;
-	std::string name = p1.get_name();
+	cout << "after innermost block" << endl;
+	string name = p1.get_name();
 
 	//int i = p1.arbitrary_number_;
 
-	std::cout << name << std::endl;
+	cout << name << endl;
 
 	return 0;
 }

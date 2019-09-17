@@ -1,24 +1,28 @@
 #include <iostream>
 #include "Person.h"
 
-Person::Person(std::string first, std::string last, int arbitrary) : first_name_(first), last_name_(last), arbitrary_number_(arbitrary)
+using std::cout;
+using std::endl;
+using std::string;
+
+Person::Person(string first, string last, int arbitrary) : first_name_(first), last_name_(last), arbitrary_number_(arbitrary)
 {
-	std::cout << "constructing " << first_name_ << " " << last_name_ << std::endl;
+	cout << "constructing " << first_name_ << " " << last_name_ << endl;
 }
 
 // We can use "=default" keyword instead
 //
 Person::Person() : arbitrary_number_(0)
 {
-	std::cout << "constructing " << first_name_ << " " << last_name_ << std::endl;
+	cout << "constructing " << first_name_ << " " << last_name_ << endl;
 }
 
 Person::~Person()
 {
-	std::cout << "destructing " << first_name_ << " " << last_name_ << std::endl;
+	cout << "destructing " << first_name_ << " " << last_name_ << endl;
 }
 
-std::string Person::get_name()
+string Person::get_name()
 {
 	return first_name_ + " " + last_name_;
 }
