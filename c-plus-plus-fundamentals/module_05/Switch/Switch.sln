@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Switch", "Switch\Switch.vcxproj", "{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Debug|x64.ActiveCfg = Debug|x64
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Debug|x64.Build.0 = Debug|x64
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Debug|x86.Build.0 = Debug|Win32
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Release|x64.ActiveCfg = Release|x64
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Release|x64.Build.0 = Release|x64
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Release|x86.ActiveCfg = Release|Win32
+		{5EFD905B-14D6-4BEF-9820-3FB8C1F1446D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33944A56-3C30-4747-85FE-C4E38E9B5093}
+	EndGlobalSection
+EndGlobal
